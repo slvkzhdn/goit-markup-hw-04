@@ -61,8 +61,7 @@ button {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 2px solid red;
-    outline-offset: -2px;
+
 }
 
 .list {
@@ -161,6 +160,8 @@ section {
     padding: 188px 0;
     display: flex;
     margin: 0 auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero.png) ;
+    background-repeat: no-repeat;
 }
 
 .hero-title {
