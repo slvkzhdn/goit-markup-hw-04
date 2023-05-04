@@ -426,10 +426,37 @@ height: 72px;
 }
 
 /* Socials item */
+
 .socials {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
     padding-left: 0;
+}
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: #4D5AE5;;
+}
+
+.socials-icon {
+    fill: #FFFFFF;
+}
+
+.footer-socials-items {
+    display: flex;
+    gap: 16px;
+
+}
+
+.footer-socials-p {
+    width: 96px;
+    height: 24px;
+    color: #FFFFFF;
 }
