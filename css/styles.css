@@ -108,6 +108,8 @@ section {
 
 .link {
     text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 
 .header-nav-link:hover {
@@ -268,9 +270,9 @@ section {
 }
 
 .team-list-info {
-    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding: 32px 0;
 }
 
 .team-list-title {
@@ -292,9 +294,6 @@ section {
     margin-bottom: 8px;
 }
 
-.team-wrapper {
-    padding: 32px 0
-}
 
 /* FOOTER */
 
@@ -434,7 +433,6 @@ height: 72px;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding-left: 0;
 }
 
 .socials-link {
@@ -442,11 +440,11 @@ height: 72px;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
     background-color: #4D5AE5;;
     width: 100%;
     height: 100%;
+    
+
 }
 
 .socials-link:hover, .socials-link:focus {
@@ -457,11 +455,24 @@ height: 72px;
     fill: #FFFFFF;
 }
 
+svg {
+    width: 16px;
+    height: 16px;
+
+}
+
 .footer-socials-items {
     display: flex;
     gap: 16px;
     width: 40px;
     height: 40px;
+
+}
+
+.socials-item {
+    width: 40px;
+    height: 40px;
+
 
 }
 
