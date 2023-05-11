@@ -390,12 +390,14 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 width: 264px;
 height: 72px;
+
 }
 
 .footer-content {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
+    margin-left: 156px;
 
 }
 
@@ -555,8 +557,15 @@ svg {
 .footer-socials-items {
     display: flex;
     gap: 16px;
+    /* width: 40px;
+    height: 40px; */
+
+}
+
+.socials-list {
     width: 40px;
     height: 40px;
+
 
 }
 
