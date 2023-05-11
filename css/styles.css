@@ -346,9 +346,15 @@ section {
     border-radius: 4px;
     align-items: center;
     justify-content: center;
+    color: #8e8f99;;
 }
 
-.customers-link:hover, .customer-link:focus {
+.customers-link:hover {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.customer-link:focus {
     border-color: #404bbf;
     color: #404bbf;
 }
@@ -554,7 +560,7 @@ svg {
 
 }
 
-.footer-socials-items {
+.footer-socials-item {
     display: flex;
     gap: 16px;
     /* width: 40px;
