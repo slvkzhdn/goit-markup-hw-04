@@ -368,6 +368,8 @@ section {
 
 /* FOOTER */
 
+
+
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -401,15 +403,16 @@ height: 72px;
 }
 
 .footer-content, {
-    display: flex;
-    align-items: baseline;
     margin-right: 120px;
-
-
 }
 
 .span-footer {
     color: #f4f4fd;
+}
+
+.container-footer {
+    display: flex;
+    align-items: baseline;
 }
 
 
