@@ -400,11 +400,11 @@ height: 72px;
 
 }
 
-.footer-content {
+.footer-content, {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-    margin-left: 156px;
+    
 
 }
 
