@@ -355,7 +355,7 @@ section {
     color: #404bbf;
 }
 
-.customer-link:focus {
+.customers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
 }
@@ -404,7 +404,7 @@ height: 72px;
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-    
+
 
 }
 
